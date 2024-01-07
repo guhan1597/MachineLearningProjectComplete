@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('sample') {
       steps {
-        sh 'ls '
+        bat 'git commit -m \'After jenkins setup\''
       }
     }
 
